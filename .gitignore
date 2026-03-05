@@ -1,0 +1,13 @@
+# Custom exception: We explicitly want to track our compiled binaries, as they are zero-dependency portables.
+!Jigglr.exe
+!GenerateIcon.exe
+
+# Ignore standard Visual Studio / IDE temp files should they ever be created
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dll
